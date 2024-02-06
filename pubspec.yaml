@@ -1,0 +1,11 @@
+name: html_to_digia
+
+
+environment:
+  sdk: '>=3.0.0'
+
+dependencies:
+  csslib: ^1.0.0
+  html: ^0.15.4
+  http: ^1.2.0
+  uuid: ^4.3.3

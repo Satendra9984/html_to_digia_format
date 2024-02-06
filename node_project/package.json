@@ -1,0 +1,16 @@
+{
+  "name": "html_to_digia",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "author": "satendra_pal",
+  "license": "ISC",
+  "dependencies": {
+    "css2json": "^1.1.1",
+    "html-to-json-parser": "^2.0.0"
+  }
+}

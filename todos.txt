@@ -1,0 +1,32 @@
+
+19/01/24
+1: Separated dg widgets and fg widgets 
+2: Dg widgets will be prioritized based on component name (WidgetMapper.getWidgetName()) for more details
+3: Changed UiObjectModelBase 
+
+Conclusion: Figured out the first version of my parser
+
+[TODO]
+1) Complete the guidelines discussion
+2) Extract widgets data for making the widgets data for digia_json
+3) Complete all widgets list
+
+
+
+OPTIMIZATION
+1) Remove group/frame with a single child: 
+     1) Either before parsing in figmajson
+     2) In the final digia json through recursion
+     3) During parsing(GROUP/FRAME) just return child if it has only one children   
+
+// WIDGETS DONE
+
+
+h1-h6      : text
+p,h1,h6    : richtext
+button     : button 
+ul,ol      : listview
+li         : listtile
+div        : column, grid, flex-container/column
+// in this case we will use gridview only and set as per grid, column
+
