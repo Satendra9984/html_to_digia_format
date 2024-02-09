@@ -64,7 +64,9 @@
                                    "HFkfP7EwJi",
                                    "ipEtbk7rRe",
                                    "QlFXqaMMoM",
-                                   "DO4qfRmM7U"
+                                   "DO4qfRmM7U",
+                                   "9Cd4o8G92i",
+                                   "6meaFDf5eG"
                               ],
                               "dataRef": {
                                    "datum": "[]",
@@ -120,6 +122,10 @@
                                                                       "textColor": {
                                                                            "type": "string",
                                                                            "data": "#4945FF"
+                                                                      },
+                                                                      "textBgColor": {
+                                                                           "type": "string",
+                                                                           "data": ""
                                                                       }
                                                                  }
                                                             }
@@ -129,7 +135,7 @@
                                         },
                                         "maxLines": {
                                              "type": "number",
-                                             "data": null
+                                             "data": 5
                                         },
                                         "overflow": {
                                              "type": "string",
@@ -144,7 +150,7 @@
                                              "data": {
                                                   "fontToken": {
                                                        "type": "string",
-                                                       "data": "titleLarge"
+                                                       "data": "titleMedium"
                                                   }
                                              }
                                         }
@@ -414,7 +420,7 @@
                                         },
                                         "backgrounColor": {
                                              "type": "string",
-                                             "data": "#8A941C85"
+                                             "data": "#8A261C94"
                                         },
                                         "iconColor": {
                                              "type": "string",
@@ -465,7 +471,7 @@
                                              "type": "json",
                                              "data": {
                                                   "pack": "fontAwesomeIcons",
-                                                  "key": "anchorLock"
+                                                  "key": "googlePay"
                                              }
                                         },
                                         "iconSize": {
@@ -475,6 +481,98 @@
                                         "iconColor": {
                                              "type": "string",
                                              "data": "#921010"
+                                        }
+                                   }
+                              },
+                              "defaultPropData": null,
+                              "children": [],
+                              "dataRef": null
+                         },
+                         "sslXELTUTn": {
+                              "type": "digia/button",
+                              "id": "sslXELTUTn",
+                              "parent": "1CxKb7VskD",
+                              "propData": null,
+                              "defaultPropData": null,
+                              "children": [],
+                              "dataRef": null
+                         },
+                         "X7Ofz5CV5b": {
+                              "type": "digia/richText",
+                              "id": "X7Ofz5CV5b",
+                              "parent": "1CxKb7VskD",
+                              "propData": null,
+                              "defaultPropData": null,
+                              "children": [],
+                              "dataRef": null
+                         },
+                         "9Cd4o8G92i": {
+                              "type": "digia/horizontalDivider",
+                              "id": "9Cd4o8G92i",
+                              "parent": "agwb55kgRV",
+                              "propData": {
+                                   "type": "object",
+                                   "data": {
+                                        "lineStyle": {
+                                             "type": "string",
+                                             "data": "solid"
+                                        },
+                                        "color": {
+                                             "type": "string",
+                                             "data": "#DE2727"
+                                        },
+                                        "thickness": {
+                                             "type": "number",
+                                             "data": 10
+                                        },
+                                        "height": {
+                                             "type": "number",
+                                             "data": 10
+                                        },
+                                        "indent": {
+                                             "type": "number",
+                                             "data": null
+                                        },
+                                        "endIndent": {
+                                             "type": "number",
+                                             "data": null
+                                        }
+                                   }
+                              },
+                              "defaultPropData": null,
+                              "children": [],
+                              "dataRef": null
+                         },
+                         "6meaFDf5eG": {
+                              "type": "digia/verticalDivider",
+                              "id": "6meaFDf5eG",
+                              "parent": "agwb55kgRV",
+                              "propData": {
+                                   "type": "object",
+                                   "data": {
+                                        "lineStyle": {
+                                             "type": "string",
+                                             "data": "solid"
+                                        },
+                                        "color": {
+                                             "type": "string",
+                                             "data": "#41D728"
+                                        },
+                                        "thickness": {
+                                             "type": "number",
+                                             "data": 10
+                                        },
+                                        "width": {
+                                             "type": "number",
+                                             "data": 10
+                                        },
+                                        "indent": {
+                                             "type": "number",
+                                             "data": null
+                                        },
+                                        "endIndent": {
+                                             "type": "number",
+                                             "data": null
                                         }
                                    }
                               },

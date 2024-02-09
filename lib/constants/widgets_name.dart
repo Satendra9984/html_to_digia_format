@@ -23,7 +23,16 @@
  const String input = 'input';
  const String button = 'button';
  const String div = 'div';
+ const String hr = 'hr';
 
- 
+
+ //
+
+  const String attributes = 'attributes';
+  const String content = 'content';
+  const String typeName = 'type';
+
+
+
 
 
