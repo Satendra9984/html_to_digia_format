@@ -3,6 +3,8 @@ import 'package:html_to_digia/data/digiafinal_data.dart';
 import 'package:html_to_digia/handler/models/ui_object_base_class.dart';
 import 'package:html_to_digia/handler/widgets/digia_widgets/DG_divider.dart';
 import 'package:html_to_digia/handler/widgets/digia_widgets/dg_button.dart';
+import 'package:html_to_digia/handler/widgets/digia_widgets/dg_container.dart';
+import 'package:html_to_digia/handler/widgets/digia_widgets/dg_grid.dart';
 import 'package:html_to_digia/handler/widgets/digia_widgets/dg_richtext.dart';
 import 'package:html_to_digia/handler/widgets/digia_widgets/dg_text.dart';
 
@@ -35,9 +37,11 @@ UiObjectModelBase? handleDiv(Map data) {
 
   String display = css["display"] ?? "block";
 
-  // return switch (display) {
-    
-  // };
+  return switch (display) {
+    'block' => DGContainerWidget(figmaHTMLElement: data),
+    'grid' => DGGridViewWidget(figmaHTMLElement: data),
+    _ => null,
+  };
 
   return null;
 }

@@ -66,7 +66,10 @@
                                    "QlFXqaMMoM",
                                    "DO4qfRmM7U",
                                    "9Cd4o8G92i",
-                                   "6meaFDf5eG"
+                                   "6meaFDf5eG",
+                                   "wfux0kZFrd",
+                                   "cO8RuxCpn5",
+                                   "kuh5SvGEng"
                               ],
                               "dataRef": {
                                    "datum": "[]",
@@ -576,6 +579,181 @@
                                         }
                                    }
                               },
+                              "defaultPropData": null,
+                              "children": [],
+                              "dataRef": null
+                         },
+                         "wfux0kZFrd": {
+                              "type": "digia/gridView",
+                              "id": "wfux0kZFrd",
+                              "parent": "agwb55kgRV",
+                              "propData": {
+                                   "type": "object",
+                                   "data": {
+                                        "allowScroll": {
+                                             "type": "bool",
+                                             "data": true
+                                        },
+                                        "shrinkWrap": {
+                                             "type": "bool",
+                                             "data": true
+                                        },
+                                        "crossAxisCount": {
+                                             "type": "number",
+                                             "data": 2
+                                        },
+                                        "crossAxisSpacing": {
+                                             "type": "number",
+                                             "data": 2
+                                        },
+                                        "mainAxisSpacing": {
+                                             "type": "number",
+                                             "data": 2
+                                        },
+                                        "childAspectRatio": {
+                                             "type": "number",
+                                             "data": 2
+                                        }
+                                   }
+                              },
+                              "defaultPropData": null,
+                              "children": [
+                                   "0efd2DlAVF",
+                                   "gV3lqBGNWb",
+                                   "MNekmAbkeO"
+                              ],
+                              "dataRef": {
+                                   "datum": "[  ]",
+                                   "kind": "json"
+                              }
+                         },
+                         "cO8RuxCpn5": {
+                              "type": "digia/container",
+                              "id": "cO8RuxCpn5",
+                              "parent": "agwb55kgRV",
+                              "propData": {
+                                   "type": "object",
+                                   "data": {
+                                        "width": {
+                                             "type": "string",
+                                             "data": "100%"
+                                        },
+                                        "height": {
+                                             "type": "string",
+                                             "data": "50"
+                                        },
+                                        "maxHeight": {
+                                             "type": "string",
+                                             "data": "50"
+                                        },
+                                        "minHeight": {
+                                             "type": "string",
+                                             "data": "50"
+                                        },
+                                        "maxWidth": {
+                                             "type": "string",
+                                             "data": "100%"
+                                        },
+                                        "MinWidth": {
+                                             "type": "string",
+                                             "data": "100%"
+                                        },
+                                        "shape": {
+                                             "type": "string",
+                                             "data": "circle"
+                                        },
+                                        "childAlignment": {
+                                             "type": "string",
+                                             "data": "center"
+                                        },
+                                        "margin": {
+                                             "type": "string",
+                                             "data": "8,0,8,0"
+                                        },
+                                        "padding": {
+                                             "type": "string",
+                                             "data": "8,8,8,8"
+                                        },
+                                        "color": {
+                                             "type": "string",
+                                             "data": "#39D26E"
+                                        },
+                                        "border": {
+                                             "type": "object",
+                                             "data": {
+                                                  "borderRadius": {
+                                                       "type": "string",
+                                                       "data": "0,0,0,0"
+                                                  },
+                                                  "borderWidthStr": {
+                                                       "type": "string",
+                                                       "data": null
+                                                  },
+                                                  "borderColor": {
+                                                       "type": "string",
+                                                       "data": "#ABABAB"
+                                                  }
+                                             }
+                                        },
+                                        "decorationImage": {
+                                             "type": "object",
+                                             "data": {
+                                                  "source": {
+                                                       "type": "string",
+                                                       "data": null
+                                                  },
+                                                  "opacity": {
+                                                       "type": "number",
+                                                       "data": 1
+                                                  },
+                                                  "fit": {
+                                                       "type": "object",
+                                                       "data": null
+                                                  },
+                                                  "alignment": {
+                                                       "type": "string",
+                                                       "data": "none"
+                                                  }
+                                             }
+                                        }
+                                   }
+                              },
+                              "defaultPropData": null,
+                              "children": [],
+                              "dataRef": null
+                         },
+                         "kuh5SvGEng": {
+                              "type": "digia/image",
+                              "id": "kuh5SvGEng",
+                              "parent": "agwb55kgRV",
+                              "propData": null,
+                              "defaultPropData": null,
+                              "children": [],
+                              "dataRef": null
+                         },
+                         "0efd2DlAVF": {
+                              "type": "digia/button",
+                              "id": "0efd2DlAVF",
+                              "parent": "wfux0kZFrd",
+                              "propData": null,
+                              "defaultPropData": null,
+                              "children": [],
+                              "dataRef": null
+                         },
+                         "gV3lqBGNWb": {
+                              "type": "digia/horizontalDivider",
+                              "id": "gV3lqBGNWb",
+                              "parent": "wfux0kZFrd",
+                              "propData": null,
+                              "defaultPropData": null,
+                              "children": [],
+                              "dataRef": null
+                         },
+                         "MNekmAbkeO": {
+                              "type": "digia/text",
+                              "id": "MNekmAbkeO",
+                              "parent": "wfux0kZFrd",
+                              "propData": null,
                               "defaultPropData": null,
                               "children": [],
                               "dataRef": null
